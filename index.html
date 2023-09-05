@@ -540,5 +540,45 @@
 
   </div> 
 
+  <div class="modalContainer" id="modalContainer">
+    <div class="modal" id="modal">
+      <div class="close-modal-btn-container">
+        <button class="modal-close-btn" id="modal-close-btn" disabled>X</button>
+      </div>
+      <div class="modal-inner" id="modal-inner">
+        <h1>Welcome 🤗!!!</h1><br>
+        <p class="modal-text" id="modal-text">Would be much appriciated if you have time to tell Us about you and how you find Us.</p>
+        
+        <form id="consent-form">
+          <input type="text" name="fullName" placeholder="Enter your name (Required)" required>
+          <input type="text" name="companyName" placeholder="Enter your company name...">
+          <input type="text" name="contact" placeholder="Enter your contact here...">
+          <select
+            name="howYouFind"
+            id="how"
+            required
+            >
+            <option value="" disabled selected>
+            Tell Us how you find this site (Required)
+            </option>
+              <option value="0">Search Engine (Google search etc.)</option>
+              <option value="1">Shared link (Name Card / CV)</option>
+              <option value="2">Git Repository</option>
+              <option value="3">Other</option>
+          </select>
+          <div class="modal-choice-btns" id="modal-choice-btns">
+            <button type="submit" class="modal-btn">Submit</button>
+            <button type="reset" class="modal-btn">Reset</button>
+          </div>
+        </form>
+            
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
+
+
 </html>
+
