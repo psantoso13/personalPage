@@ -135,6 +135,7 @@ header {
 
 .tabelSkill .kolomA .subList {
     margin-left: 15px;
+    list-style: none;
 }
 
 .tabelData {
