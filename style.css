@@ -85,6 +85,7 @@ header {
 
 .tabelId {
     /* border: solid 3px; */
+    display: flex;
     border-radius: 10px;
     width: 800px;
     margin: auto;
